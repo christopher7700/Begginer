@@ -1,0 +1,25 @@
+List = [ "one", "two", "three", "four", "five", "six" ]
+
+
+print(List)
+
+print(List[0])
+#the list starts in 0 from left to right 
+
+print(List[-1])
+#the list starts in -1 from right to left
+
+print(List[0:2])
+# it will print throught 0 to 2nd list item
+
+print(List[:3])
+#prints from the begging of the list till the indicated list item
+
+
+if "two" in List:
+    print(" The value you look for is in the list ") 
+
+if "two" not in List:
+    print(" The value you look for is not in the list") 
+#this one can be good to seatch inside a list
+
